@@ -1,0 +1,29 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+
+@import url("components/container.css");
+@import url("components/card.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-image: linear-gradient(rgba(143,134,134,0.20185574229691872), rgba(0,0,0,0.35871848739495793));;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+hr {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
